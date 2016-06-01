@@ -1,0 +1,41 @@
+<form #myform='ngForm' >
+ <input [(ngModel)]='formModel.fname'
+ ngControl="fname"  #fname='ngForm' required placeholder='name' />
+<div *ngIf='!fname.errors.required'> test</div>
+ <input [(ngModel)]='formModel.age' type="number" min="1" />
+        <button (click)='save()' >Save</button>
+        {{diagnostic}}
+        <div class="form-control">Gender:
+            <label>
+                <input #male1 [ngModel]='formModel.gender' name="gender" 
+                type="radio" value="Male123" (click)="formModel.gender = male1.value" />
+                Male
+            </label>
+                <label>
+                    <input #female name="gender" [ngModel]='formModel.gender'  
+                    type="radio"  value="Female" 
+                     (click)="formModel.gender = female.value" />
+                    Female
+                </label>
+        </div>
+         <h4>Select your programming skills</h4>
+        <div>
+            <label>
+                <input #angularcb   type="checkbox"
+                 (change)="formModel.skills[0] = angularcb.checked?'Angular':false" />
+                Angular
+            </label>
+        </div>
+        <div>
+            <label>
+         <input #jscb   type="checkbox"
+                 (change)="formModel.skills[1] = jscb.checked?'js':false" />JavaScript
+            </label>
+        </div>
+</form>
+        <hr/>
+        Users:{{users.length}}<ol>
+           <li *ngFor='#user of #users'>
+               {{user.name}}
+           </li>
+        </ol>

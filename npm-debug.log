@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\pariwesh\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@2.1.4
+3 info using node@v0.12.6
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info prebuild angular2-testing@1.0.0
+6 info build angular2-testing@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info angular2-testing@1.0.0 Failed to exec build script
+9 verbose stack Error: angular2-testing@1.0.0 build: `rmdir -rf dist &&  tsc -p  src -w`
+9 verbose stack Exit status 145
+9 verbose stack     at ChildProcess.<anonymous> (C:\Users\pariwesh\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:212:16)
+9 verbose stack     at ChildProcess.emit (events.js:110:17)
+9 verbose stack     at maybeClose (child_process.js:1015:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+10 verbose pkgid angular2-testing@1.0.0
+11 verbose cwd C:\aproposals\infosys-webtech-april\angularjs2\angular2-with-testing
+12 error Windows_NT 6.1.7601
+13 error argv "node" "C:\\Users\\pariwesh\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+14 error node v0.12.6
+15 error npm  v2.1.4
+16 error code ELIFECYCLE
+17 error angular2-testing@1.0.0 build: `rmdir -rf dist &&  tsc -p  src -w`
+17 error Exit status 145
+18 error Failed at the angular2-testing@1.0.0 build script.
+18 error This is most likely a problem with the angular2-testing package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     rmdir -rf dist &&  tsc -p  src -w
+18 error You can get their info via:
+18 error     npm owner ls angular2-testing
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]

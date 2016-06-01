@@ -1,0 +1,117 @@
+[32m15 05 2016 18:41:07.601:INFO [karma]: [39mKarma v0.13.19 server started at http://localhost:9876/
+[32m15 05 2016 18:41:07.631:INFO [launcher]: [39mStarting browser Chrome
+[32m15 05 2016 18:41:11.616:INFO [Chrome 50.0.2661 (Windows 7 0.0.0)]: [39mConnected on socket /#ePuWD29-MAUb95j1AAAA with id 39628715
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './addressform/address-form'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './addressform/address-form'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/checkbox'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/checkbox'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/ellipsis'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/ellipsis'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/greeter'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/greeter'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/my-app'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/my-app'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/my-list'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/my-list'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/user-form'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './comps/user-form'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './models/User'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './models/User'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './pipes/my-pipe'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './pipes/my-pipe'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './pipes/my-pipe.spec1'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './pipes/my-pipe.spec1'
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './userservice'
+
+Chrome 50.0.2661 (Windows 7 0.0.0) LOG: 'path', './userservice'
+
+[1A[2KChrome 50.0.2661 (Windows 7 0.0.0): Executed 0 of 3 SUCCESS (0 secs / 0 secs)
+[1A[2KLOG: 'yahoo'
+Chrome 50.0.2661 (Windows 7 0.0.0): Executed 0 of 3 SUCCESS (0 secs / 0 secs)
+LOG: 'yahoo'
+[1A[2KChrome 50.0.2661 (Windows 7 0.0.0) MyList Tests testing save() FAILED
+	Failed: Error: injectAsync was expected to return a promise, but the  returned value was: undefined
+	    at Object.<anonymous> (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/testing.dev.js:2062:18)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/karma-test-shim.js:23:34
+	    at ZoneDelegate.invoke (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:332:29)
+	    at Zone.run (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:227:44)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:576:58
+	    at ZoneDelegate.invokeTask (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:365:38)
+	    at Zone.runTask (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:263:48)
+	    at drainMicroTaskQueue (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:482:36)
+	    at XMLHttpRequest.ZoneTask.invoke (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:434:22)
+Chrome 50.0.2661 (Windows 7 0.0.0): Executed 1 of 3 (1 FAILED) (0 secs / 0.017 secs)
+Chrome 50.0.2661 (Windows 7 0.0.0) MyList Tests testing save() FAILED
+	Failed: Error: injectAsync was expected to return a promise, but the  returned value was: undefined
+	    at Object.<anonymous> (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/testing.dev.js:2062:18)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/karma-test-shim.js:23:34
+	    at ZoneDelegate.invoke (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:332:29)
+	    at Zone.run (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:227:44)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:576:58
+	    at ZoneDelegate.invokeTask (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:365:38)
+	    at Zone.runTask (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:263:48)
+	    at drainMicroTaskQueue (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:482:36)
+	    at XMLHttpRequest.ZoneTask.invoke (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:434:22)
+[1A[2KChrome 50.0.2661 (Windows 7 0.0.0): Executed 2 of 3 (1 FAILED) (0 secs / 0.092 secs)
+.[1A[2KChrome 50.0.2661 (Windows 7 0.0.0) MyList Tests encountered a declaration exception FAILED
+	Error: Cannot set C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing providers because it has already been called
+	    at new BaseException (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2.dev.js:7521:21)
+	    at Object.setBaseTestProviders (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/testing.dev.js:1927:13)
+	    at Suite.<anonymous> (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/dist/comps/my-list.spec.js:30:15)
+	    at Object.<anonymous> (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/dist/comps/my-list.spec.js:29:11)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/dist/comps/my-list.spec.js:75:4
+	    at SystemJSLoader.__exec (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:1426:12)
+	    at entry.execute (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:3753:18)
+	    at linkDynamicModule (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:3120:32)
+	    at link (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:2963:11)
+	    at Object.execute (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:3298:13)
+	    at doDynamicExecute (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:716:25)
+	    at link (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:912:20)
+	    at doLink (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:570:7)
+	    at updateLinkSetOnLoad (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:618:18)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:430:11
+	    at ZoneDelegate.invoke (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:332:29)
+	    at Zone.run (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:227:44)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:576:58
+	    at ZoneDelegate.invokeTask (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:365:38)
+	    at Zone.runTask (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:263:48)
+	    at drainMicroTaskQueue (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:482:36)
+	    at XMLHttpRequest.ZoneTask.invoke (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:434:22)
+Chrome 50.0.2661 (Windows 7 0.0.0): Executed 3 of 3 (2 FAILED) (0 secs / 0.093 secs)
+
+Chrome 50.0.2661 (Windows 7 0.0.0) MyList Tests encountered a declaration exception FAILED
+	Error: Cannot set C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing providers because it has already been called
+	    at new BaseException (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2.dev.js:7521:21)
+	    at Object.setBaseTestProviders (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/testing.dev.js:1927:13)
+	    at Suite.<anonymous> (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/dist/comps/my-list.spec.js:30:15)
+	    at Object.<anonymous> (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/dist/comps/my-list.spec.js:29:11)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/dist/comps/my-list.spec.js:75:4
+	    at SystemJSLoader.__exec (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:1426:12)
+	    at entry.execute (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:3753:18)
+	    at linkDynamicModule (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:3120:32)
+	    at link (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:2963:11)
+	    at Object.execute (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:3298:13)
+	    at doDynamicExecute (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:716:25)
+	    at link (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:912:20)
+	    at doLink (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:570:7)
+	    at updateLinkSetOnLoad (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:618:18)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/systemjs/dist/system.src.js:430:11
+	    at ZoneDelegate.invoke (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:332:29)
+	    at Zone.run (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:227:44)
+	    at C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:576:58
+	    at ZoneDelegate.invokeTask (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:365:38)
+	    at Zone.runTask (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:263:48)
+	    at drainMicroTaskQueue (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:482:36)
+	    at XMLHttpRequest.ZoneTask.invoke (C:/aproposals/infosys-webtech-april/angularjs2/angular2-testing/node_modules/angular2/bundles/angular2-polyfills.js:434:22)
+[1A[2KChrome 50.0.2661 (Windows 7 0.0.0): Executed 3 of 3 (2 FAILED) (0.113 secs / 0.093 secs)
+Chrome 50.0.2661 (Windows 7 0.0.0): Executed 3 of 3 (2 FAILED) (0.113 secs / 0.093 secs)
